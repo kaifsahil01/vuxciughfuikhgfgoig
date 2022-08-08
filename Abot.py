@@ -49,10 +49,10 @@ def nope(data):
     return False
 
 def is_it_me(data):
-    return data.authorId in ('ba6b54f2-29fa-4917-bdf1-70e7c6e28ded')
+    return data.authorId in ('1dbe87e2-5293-4cb7-91fa-253f02cafd05')
 
 def is_staff(data):
-    return data.authorId in ('ba6b54f2-29fa-4917-bdf1-70e7c6e28ded') or data.subClient.is_in_staff(data.authorId)
+    return data.authorId in ('1dbe87e2-5293-4cb7-91fa-253f02cafd05') or data.subClient.is_in_staff(data.authorId)
 
 def join_community(comId: str = None, inv: str = None):
     if inv:
