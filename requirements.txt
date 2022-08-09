@@ -1,0 +1,14 @@
+BotAmino
+gtts
+google_trans_new
+youtube_dl
+requests
+joke
+jokes
+json
+Thread
+time
+random
+chatbot
+alice
+amino
